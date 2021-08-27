@@ -16,6 +16,12 @@ const routes: Array<RouteConfig> = [
     component: () =>
       import(/* webpackChunkName: "3dChart" */ "../views/3dChart.vue"),
   },
+  {
+    path: "/splom",
+    name: "splom",
+    component: () =>
+      import(/* webpackChunkName: "splom" */ "../views/Splom.vue"),
+  },
 ];
 
 const router = new VueRouter({

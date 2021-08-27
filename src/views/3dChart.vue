@@ -6,7 +6,7 @@
   @Component({
     components: {},
   })
-  export default class className extends Vue {
+  export default class ThreedChart extends Vue {
     data = [
       {
         x: [

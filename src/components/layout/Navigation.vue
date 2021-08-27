@@ -11,9 +11,7 @@
       >
     </md-list-item>
     <md-list-item>
-      <span @click="goToPath('/eda-manager')" class="md-list-item-text"
-        >EDA(Exploratory Data Analysis)</span
-      >
+      <span @click="goToPath('/splom')" class="md-list-item-text">SPLOM</span>
     </md-list-item>
     <md-list-item>
       <span @click="goToPath('/model-suggestion')" class="md-list-item-text"
@@ -53,7 +51,7 @@
 <style scoped lang="scss">
   .md-list {
     position: fixed;
-    top: 88px;
+    top: 0;
     width: 300px;
     height: 100%;
     .not-exist {
