@@ -14,23 +14,8 @@
       <span @click="goToPath('/splom')" class="md-list-item-text">SPLOM</span>
     </md-list-item>
     <md-list-item>
-      <span @click="goToPath('/model-suggestion')" class="md-list-item-text"
-        >Model suggestion</span
-      >
-    </md-list-item>
-    <md-list-item>
-      <span @click="goToPath('/train-manager')" class="md-list-item-text"
-        >Train manager</span
-      >
-    </md-list-item>
-    <md-list-item>
-      <span @click="goToPath('/admin')" class="md-list-item-text"
-        >Administration</span
-      >
-    </md-list-item>
-    <md-list-item>
-      <span @click="goToPath('/info')" class="md-list-item-text"
-        >About the software</span
+      <span @click="goToPath('/wordCloud')" class="md-list-item-text"
+        >WORDCLUD</span
       >
     </md-list-item>
   </md-list>

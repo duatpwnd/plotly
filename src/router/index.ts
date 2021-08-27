@@ -20,13 +20,19 @@ const routes: Array<RouteConfig> = [
     path: "/scatter",
     name: "scatter",
     component: () =>
-      import(/* webpackChunkName: "scatter" */ "../views/Scatter.vue"),
+      import(/* webpackChunkName: "Scatter" */ "../views/Scatter.vue"),
   },
   {
     path: "/splom",
     name: "splom",
     component: () =>
-      import(/* webpackChunkName: "splom" */ "../views/Splom.vue"),
+      import(/* webpackChunkName: "Splom" */ "../views/Splom.vue"),
+  },
+  {
+    path: "/wordCloud",
+    name: "wordCloud",
+    component: () =>
+      import(/* webpackChunkName: "WordCloud" */ "../views/WordCloud.vue"),
   },
 ];
 
