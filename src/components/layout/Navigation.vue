@@ -1,6 +1,11 @@
 <template>
   <md-list class="">
     <md-list-item>
+      <span @click="goToPath('/barChart')" class="md-list-item-text"
+        >BAR CHART</span
+      >
+    </md-list-item>
+    <md-list-item>
       <span @click="goToPath('/3dChart')" class="md-list-item-text"
         >3D CHART</span
       >

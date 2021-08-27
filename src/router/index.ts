@@ -11,6 +11,12 @@ VueRouter.prototype.push = function push(location: string) {
 
 const routes: Array<RouteConfig> = [
   {
+    path: "/barChart",
+    name: "barChart",
+    component: () =>
+      import(/* webpackChunkName: "BarChart" */ "../views/BarChart.vue"),
+  },
+  {
     path: "/3dChart",
     name: "3dChart",
     component: () =>
