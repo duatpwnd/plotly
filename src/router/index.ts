@@ -17,6 +17,12 @@ const routes: Array<RouteConfig> = [
       import(/* webpackChunkName: "3dChart" */ "../views/3dChart.vue"),
   },
   {
+    path: "/scatter",
+    name: "scatter",
+    component: () =>
+      import(/* webpackChunkName: "scatter" */ "../views/Scatter.vue"),
+  },
+  {
     path: "/splom",
     name: "splom",
     component: () =>
