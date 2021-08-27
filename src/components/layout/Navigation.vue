@@ -17,6 +17,11 @@
       <span @click="goToPath('/pie')" class="md-list-item-text">PIE CHART</span>
     </md-list-item>
     <md-list-item>
+      <span @click="goToPath('/heatMap')" class="md-list-item-text"
+        >HEATMAP</span
+      >
+    </md-list-item>
+    <md-list-item>
       <span @click="goToPath('/wordCloud')" class="md-list-item-text"
         >WORDCLUD</span
       >

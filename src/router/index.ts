@@ -35,6 +35,12 @@ const routes: Array<RouteConfig> = [
       import(/* webpackChunkName: "Pie" */ "../views/PieChart.vue"),
   },
   {
+    path: "/heatMap",
+    name: "heatMap",
+    component: () =>
+      import(/* webpackChunkName: "HeatMap" */ "../views/HeatMap.vue"),
+  },
+  {
     path: "/wordCloud",
     name: "wordCloud",
     component: () =>
