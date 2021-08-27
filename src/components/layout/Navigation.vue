@@ -14,6 +14,9 @@
       <span @click="goToPath('/splom')" class="md-list-item-text">SPLOM</span>
     </md-list-item>
     <md-list-item>
+      <span @click="goToPath('/pie')" class="md-list-item-text">PIE CHART</span>
+    </md-list-item>
+    <md-list-item>
       <span @click="goToPath('/wordCloud')" class="md-list-item-text"
         >WORDCLUD</span
       >

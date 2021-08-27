@@ -29,6 +29,12 @@ const routes: Array<RouteConfig> = [
       import(/* webpackChunkName: "Splom" */ "../views/Splom.vue"),
   },
   {
+    path: "/pie",
+    name: "pie",
+    component: () =>
+      import(/* webpackChunkName: "Pie" */ "../views/PieChart.vue"),
+  },
+  {
     path: "/wordCloud",
     name: "wordCloud",
     component: () =>
